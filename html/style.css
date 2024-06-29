@@ -1,0 +1,132 @@
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(32, 27%, 80%);
+  display: flex;
+  justify-content: center;
+  
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(237, 23, 23, 0.1);
+  max-width: 800px;
+  width: 100%;
+  margin: 20px;
+}
+
+header img {
+  width: 90%;
+  height: auto;
+  padding-left: 40px;
+  padding-top: 40px;
+  
+  border-radius: 10px;
+  align-items: baseline;
+
+  
+}
+span{
+  color: red;
+  padding-left: 50px;
+}
+table{
+  padding: 1px;
+  margin: 1px;
+}
+.ahmad{
+   color:hsl(0, 0%, 100%)
+    hsl(330, 100%, 98%)
+   hsl(30, 54%, 90%)
+   hsl(30, 18%, 87%)
+   hsl(30, 10%, 34%)
+   hsl(24, 5%, 18%)
+   hsl(14, 45%, 36%)
+   hsl(332, 51%, 32%)
+  
+}
+
+
+.prep-time{
+  background-color:hsl(330, 100%, 98%);
+  padding-left: 30px;
+  
+} 
+.Preparation{
+  color: hsl(332, 51%, 32%);
+  padding-left: -20px;
+  
+
+}
+
+main {
+  padding: 40px;
+}
+
+h1 {
+  font-family: 'Young Serif', serif;
+  font-size: 32px;
+  margin-top: 0;
+  font-weight: bold;
+  color: hsl(24, 5%, 18%);
+}
+
+h2 {
+  font-family: 'Young Serif', serif;
+  font-size: 24px;
+  color: hsl(14, 45%, 36%);
+}
+
+p {
+  font-size: 18px;
+  color: hsl(24, 5%, 18%);
+  line-height: 1.6;
+}
+
+
+.prep-time, .ingredients, .instructions, .nutrition {
+  margin-bottom: 30px;
+}
+
+ul, ol {
+  padding-left: 20px;
+  font-size: 16px;
+  color:  hsl(24, 5%, 18%);
+}
+
+li {
+  margin-bottom: 10px;
+  color:hsl(30, 10%, 34%) ;
+  padding-left: 25px;
+}
+p,th{
+  color:hsl(30, 10%, 34%) ;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 16px;
+
+}
+
+table, th, td {
+  border: 1px solid hsl(30, 18%, 87%);
+}
+td{
+  border-collapse: none;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+td{
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+
+
+
