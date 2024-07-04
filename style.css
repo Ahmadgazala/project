@@ -26,14 +26,57 @@ header img {
 
   
 }
-span{
-  color: red;
-  padding-left: 50px;
+
+.Tp{
+  padding-left: 40px;
 }
+.Calories{
+  padding-left: 340px;
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+
+}
+.Carbs{
+  padding-left: 360px;
+  color: hsl(14, 45%, 36%);
+  font-weight: bold 
+}
+.Protein{
+  padding-left: 348px;
+  color: hsl(14, 45%, 36%);
+  font-weight: bold
+}
+.Fat{
+  padding-left: 380px;
+  color: hsl(14, 45%, 36%);
+  font-weight: bold
+}
+
+line-table{
+  padding: 1px;
+  margin: 1px;
+
+}
+
+
 table{
   padding: 1px;
   margin: 1px;
 }
+
+
+
+
+.list ::marker{
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+
+}
+.list-ingredients ::marker{
+  color: hsl(14, 45%, 36%);
+
+}
+
 
 
 .prep-time{
@@ -76,16 +119,6 @@ p {
 .prep-time, .ingredients, .instructions, .nutrition {
   margin-bottom: 30px;
 }
-
-.list {
-  list-style: decimal inside;
-}
-
-.list::marker{
-  color: hsl(14, 45%, 36%);
-  font-weight: bold;
-}
-
 
 ul, ol {
   padding-left: 20px;
@@ -134,8 +167,23 @@ td{
     margin: 0;
     padding: 0;
   }
- 
+ .Calories{
+  padding-left: 100px;
+ }
+ .Carbs{
+  padding-left: 120px;
+ }
+ .Protein{
+  padding-left: 106px;
+ }
+ .Fat{
+  padding-left: 139px;
+ }
 
+ .An-easy{
+  padding-right: 0px;
+  font-size: 20px;
+ }
   .container {
     margin-top: 0px;
     margin-left: 0;
@@ -147,10 +195,13 @@ td{
     padding-left: 0;
     padding-top: 0px;
     width: 100%;
+    border-radius: 0px;
   }
 
   .prep-time {
     padding-left: 15px;
+    padding-right: 150px;
+    margin-right: 10px;
   }
 
   span {
@@ -158,7 +209,9 @@ td{
   }
 
   main {
-    padding: 20px;
+    padding-right: 0px;
+    margin-right: 20px;
+    
   }
 
   h1 {
@@ -172,8 +225,8 @@ td{
   p {
     font-size: 21px;
   }
-  
 
+  
 
   ul, ol {
     padding-left: 15px;
@@ -184,13 +237,14 @@ td{
     padding-left: 7px;
   }
 
-  th, td {
+  line-table p, span {
     padding: 10px;
   }
+  line-table span{
+    padding-left: 30px;
+  }
+
 }
-
-
-
 
 
 
