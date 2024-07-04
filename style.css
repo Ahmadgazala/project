@@ -43,24 +43,24 @@ header img {
   padding-left: 40px;
 }
 .Calories{
-  padding-left: 11cm;
+  padding-left: 7cm;
   color: hsl(14, 45%, 36%);
   font-weight: bold;
 
 }
 .Carbs{
   display: flexbox;
-  padding-left: 11cm;
+  padding-left: 7cm;
   color: hsl(14, 45%, 36%);
   font-weight: bold 
 }
 .Protein{
-  padding-left: 11cm;
+  padding-left: 7cm;
   color: hsl(14, 45%, 36%);
   font-weight: bold
 }
 .Fat{
-  padding-left: 11cm;
+  padding-left: 7cm;
   color: hsl(14, 45%, 36%);
   font-weight: bold
 }
