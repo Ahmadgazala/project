@@ -26,28 +26,41 @@ header img {
 
   
 }
+.S-Fat::after {
+  content: "\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0"; /* Unicode space character */
+
+}
+.S-Protein::after {
+  content: "\00A0\00A0"; /* Unicode space character */
+
+}
+.S-Carbs::after{
+  content: "\00A0\00A0\00A0\00A0"; 
+}
+
 
 .Tp{
   padding-left: 40px;
 }
 .Calories{
-  padding-left: 340px;
+  padding-left: 11cm;
   color: hsl(14, 45%, 36%);
   font-weight: bold;
 
 }
 .Carbs{
-  padding-left: 360px;
+  display: flexbox;
+  padding-left: 11cm;
   color: hsl(14, 45%, 36%);
   font-weight: bold 
 }
 .Protein{
-  padding-left: 348px;
+  padding-left: 11cm;
   color: hsl(14, 45%, 36%);
   font-weight: bold
 }
 .Fat{
-  padding-left: 380px;
+  padding-left: 11cm;
   color: hsl(14, 45%, 36%);
   font-weight: bold
 }
@@ -175,16 +188,16 @@ td{
     padding: 0;
   }
  .Calories{
-  padding-left: 100px;
+  padding-left: 2.5cm;
  }
  .Carbs{
-  padding-left: 120px;
+  padding-left: 2cm;
  }
  .Protein{
-  padding-left: 106px;
+  padding-left: 1.9cm;
  }
  .Fat{
-  padding-left: 139px;
+  padding-left: 1.9cm;
  }
 
  .An-easy{
