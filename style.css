@@ -91,7 +91,7 @@ ul, ol {
 li {
   margin-bottom: 10px;
   color:hsl(30, 10%, 34%) ;
-  padding-left: 14px;
+  padding-left: 7px;
 }
 p,th{
   color:hsl(30, 10%, 34%) ;
@@ -175,7 +175,7 @@ td{
   }
 
   li {
-    padding-left: 20px;
+    padding-left: 7px;
   }
 
   th, td {
