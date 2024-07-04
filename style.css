@@ -34,18 +34,12 @@ table{
   padding: 1px;
   margin: 1px;
 }
-.ahmad{
-   color:hsl(0, 0%, 100%)
-    hsl(330, 100%, 98%)
-   hsl(30, 54%, 90%)
-   hsl(30, 18%, 87%)
-   hsl(30, 10%, 34%)
-   hsl(24, 5%, 18%)
-   hsl(14, 45%, 36%)
-   hsl(332, 51%, 32%)
-  
-}
 
+.list ::marker{
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+
+}
 
 .prep-time{
   background-color:hsl(330, 100%, 98%);
@@ -97,7 +91,7 @@ ul, ol {
 li {
   margin-bottom: 10px;
   color:hsl(30, 10%, 34%) ;
-  padding-left: 25px;
+  padding-left: 14px;
 }
 p,th{
   color:hsl(30, 10%, 34%) ;
@@ -126,6 +120,70 @@ td{
   color: hsl(14, 45%, 36%);
   font-weight: bold;
 }
+
+@media (max-width: 768px) {
+  body {
+    flex-direction:column;
+    align-items:center;
+    margin: 0;
+    padding: 0;
+  }
+ 
+
+  .container {
+    margin-top: 0px;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right:0 ;
+  }
+
+  header img {
+    padding-left: 0;
+    padding-top: 0px;
+    width: 100%;
+  }
+
+  .prep-time {
+    padding-left: 15px;
+  }
+
+  span {
+    padding-left: 20px;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 21px;
+  }
+  
+
+
+  ul, ol {
+    padding-left: 15px;
+    font-size: 14px;
+  }
+
+  li {
+    padding-left: 20px;
+  }
+
+  th, td {
+    padding: 10px;
+  }
+}
+
+
 
 
 
